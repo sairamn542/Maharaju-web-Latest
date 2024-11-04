@@ -1,0 +1,80 @@
+.container {
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.grid {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    width: 100%;
+    max-width: 1200px;
+}
+
+.card1-container {
+    padding: 1rem;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.7s, transform 0.7s;
+}
+
+.card1-container.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.card1 {
+    position: relative;
+    border-radius: 8px;
+    padding: 1.5rem;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.hover-effect {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(100, 0, 200, 0.3);
+    border-radius: 50%;
+    transform: scale(0);
+    transition: transform 1s ease-in-out;
+    z-index: 0;
+}
+
+.card1:hover .hover-effect {
+    transform: scale(1.5);
+}
+
+.card1-content {
+    position: relative;
+    z-index: 1;
+}
+
+.card1-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+.card1-text {
+    font-size: 1rem;
+    color: #f1f1f1;
+    flex-grow: 1;
+}
+
+.card1-image {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 0 0 8px 8px;
+}
