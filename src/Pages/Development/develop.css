@@ -10,7 +10,7 @@
     background-size: cover;
   }
   
-  .header-text {
+  .header-text-dev {
     position: absolute;
     top: 40%;
     left: 35%;
@@ -18,7 +18,7 @@
     z-index: 2;
     animation: slideDown 1s ease-out forwards;
   }
-  .header-text .development {
+  .header-text-dev .development {
     font-size: 4rem;
     font-weight: bold;
   }
@@ -127,7 +127,7 @@
       height: 300px;
     }
   
-    .header-text {
+    .header-text-dev {
       position: absolute;
       top: 40%;
       left: 25%;
@@ -135,7 +135,7 @@
       z-index: 2;
       animation: slideDown 1s ease-out forwards;
     }
-    .header-text .development {
+    .header-text-dev .development {
       font-size: 2rem;
       font-weight: bold;
     }

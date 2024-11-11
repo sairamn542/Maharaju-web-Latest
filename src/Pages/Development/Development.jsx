@@ -20,7 +20,7 @@ function Development() {
         <div>
             <div className="header-section">
                 <img src="https://e1.pxfuel.com/desktop-wallpaper/943/330/desktop-wallpaper-laptop-black-keyboard-backgrounds-cool-computer-keyboard-thumbnail.jpg" alt="Header" className="header-image" />
-                <div className="header-text">
+                <div className="header-text-dev">
                     <div className="development">Development</div>
                     <div className="mt-3">
                         Home / Development

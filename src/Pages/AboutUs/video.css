@@ -1,5 +1,4 @@
 .video-container {
-    position: relative;
     height: 500px;
     overflow: hidden;
   }
@@ -10,11 +9,7 @@
     object-fit: cover;
   }
   
-  .heading {
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  .heading4 {
     color: black;
     font-size: 2rem;
     text-align: center;

@@ -11,18 +11,22 @@ function Features() {
             </div>
             <div className="features-col">
                 <div className='features-content-box'>
-                    <div>Instant health report over 16+ health parameters</div>
-                    <div>QR Based Health Card</div>
-                    <div>Advance Analytics dashboard for Impact Analysis</div>
-                    <div>Instant Health Reports on WhatsApp, SMS & email along with printout</div>
+                    <div>Web development</div>
+                    <div>Mobile development</div>
+                    <div>Cloud solutions</div>
+                    <div>Database management</div>
+                    <div>E-commerce Solutions</div>
+                    <div>Data Analytics and business Intelligence</div>
                 </div>
             </div>
             <div className="features-col">
                 <div className='features-content-box'>
-                    <div>Video call between doctor and patients with instant prescription</div>
-                    <div>Instant ECG reporting</div>
-                    <div>AI powered personalized Indian meal plan</div>
-                    <div>Maintain Patient Medical Record with Complete data security</div>
+                    <div>A.i and machine learning</div>
+                    <div>Cyber security</div>
+                    <div>UI/UX design</div>
+                    <div>Devops</div>
+                    <div>API Development and Integration</div>
+                    <div>Training and Support</div>
                 </div>
             </div>
         </div>

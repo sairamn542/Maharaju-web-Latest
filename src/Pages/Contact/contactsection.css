@@ -136,4 +136,22 @@
   }  
   .call-link:hover h3 {
     color: #4b4bc9;
-  }  
+  }
+
+  .error-message {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 5px;
+    display: block;
+  }
+  
+  .input-field,
+  .textarea {
+    margin-bottom: 10px;
+  }
+  
+  .input-field.error,
+  .textarea.error {
+    border: 1px solid red;
+  }
+  

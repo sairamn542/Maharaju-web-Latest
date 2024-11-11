@@ -5,6 +5,7 @@
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); 
     padding: 20px; 
 }
+
 .features-heading {
     text-align: center;
     font-family: 'Poppins', sans-serif;
@@ -14,7 +15,7 @@
 .features-row {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     padding: 20px;
     gap: 20px; 
 }
@@ -26,7 +27,7 @@
 
 .features-col img {
     width: 350px;
-    height: 300px;
+    height: 400px;
     border-radius: 10px;
 }
 
@@ -44,8 +45,11 @@
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     padding: 10px;
-    text-align: center;
     transition: transform 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     color: grey;
     font-weight: bold;
 }
@@ -64,7 +68,7 @@
     
     .features-col img {
         width: 100%;
-        height: auto;
+        height: 70%;
     }
 
     .features-content-box div {

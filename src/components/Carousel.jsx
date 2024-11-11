@@ -1,6 +1,6 @@
 // Carousel.js
 import React from 'react';
-import './header.css';
+import './carousel.css';
 
 function CarouselSection() {
     return (

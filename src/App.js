@@ -21,6 +21,8 @@ import Video from './Pages/AboutUs/Video.jsx';
 import ThreeCards from './Pages/AboutUs/ThreeCard.jsx';
 import DigitalMarketingPage from './Pages/Marketing/Marketing.jsx';
 import Features from './Pages/Career/Feature.jsx';
+import CareersPage from './Pages/Career/Career.jsx';
+import CareeerFooter from './Pages/Career/CareeerFooter.jsx';
 
 
 function App() {
@@ -60,7 +62,9 @@ function App() {
         } />
         <Route path='/career' element={
           <>
+            <CareersPage />
             <Features />
+            <CareeerFooter />
           </>
         } />
         <Route path='/about' element={

@@ -1,6 +1,5 @@
 .digital-marketing-page {
-    margin: 0;
-    padding: 0;
+    overflow-x: hidden;
   }
   
   .header-image {
@@ -91,6 +90,9 @@
   
   /* Responsive adjustments */
   @media (max-width: 768px) {
+    .description-section {
+      margin: 10px;
+    }
     .header-image {
       font-size: 2rem;
       height: 300px;

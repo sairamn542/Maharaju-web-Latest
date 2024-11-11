@@ -1,0 +1,65 @@
+
+.careers__header {
+    position: relative;
+    background-image: url("https://s7d9.scene7.com/is/image/roberthalfintl/the-value-of-teamwork-in-the-workplace-blog-RH-05-23-24.jpg:Large-1x?fmt=webp-alpha");
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  
+  .careers__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+  
+  .careers__heading {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .careers__title {
+    font-size: 48px;
+    font-weight: bold;
+  }
+  
+  .careers__subtitle {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 5px;
+  }
+  
+  .careers__search {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .careers__searchInput {
+    width: 300px;
+    height: 35px;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    outline: none;
+  }
+  
+  @media screen and (max-width : 768px){
+    .careers__header {
+        background-size: cover;
+    }
+  }

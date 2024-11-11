@@ -16,9 +16,9 @@ function Footer() {
                     <div className='heading1'>Social</div>
                     <div className='border1'></div>
                     <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
-                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
                     <a href="https://x.com/?lang=en"><i class="fa-brands fa-twitter"></i></a>
-                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
                 </div>
             </div>
             <div className='f-content pt-3'>© 2024 Maharaju Technologies Private Limited, All Right Reserved.</div>

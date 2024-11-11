@@ -7,7 +7,7 @@ const DigitalMarketingPage = () => {
     { id: 1, title: "Digital Marketing", text: "Digital marketing uses digital channels to reach targeted audiences, drive brand growth, and boost online engagement.", logo: "https://cdn-icons-png.flaticon.com/128/8118/8118287.png" },
     { id: 2, title: "Internet Marketing", text: "Internet marketing uses online platforms to promote products and services effectively.", logo: "https://cdn-icons-png.flaticon.com/128/5757/5757635.png" },
     { id: 3, title: "Content Marketing", text: "Content marketing involves creating valuable content to engage and retain target audiences.", logo: "https://cdn-icons-png.flaticon.com/128/12067/12067648.png" },
-    { id: 4, title: "Social Media Marketing", text: "Promotes brands on social platforms to enhance visibility and engagement.", logo: "https://cdn-user-icons.flaticon.com/172000/172000364/1730699323723.svg?token=exp=1730700254~hmac=fbc77abf3d9708886eab860681cb0efc" },
+    { id: 4, title: "Social Media Marketing", text: "Promotes brands on social platforms to enhance visibility and engagement.", logo: "social-media.png" },
     { id: 5, title: "B2B Marketing", text: "B2B marketing emphasizes building relationships between businesses for mutual growth.", logo: "https://cdn-icons-png.flaticon.com/128/11722/11722232.png" },
     { id: 6, title: "E-mail Marketing", text: "Engage customers and nurture leads through targeted email campaigns.", logo: "https://cdn-icons-png.flaticon.com/128/10401/10401061.png" }
   ];

@@ -1,5 +1,5 @@
-import React, { useEffect, useRef, useState } from "react";
-import "./threec.css"; // Import the external CSS file
+import React from "react";
+import "./threec.css";
 
 const ThreeCards = () => {
     const cardData = [
@@ -23,46 +23,11 @@ const ThreeCards = () => {
         },
     ];
 
-    const [isVisible, setIsVisible] = useState(Array(cardData.length).fill(false));
-    const cardRefs = useRef([]);
-
-    useEffect(() => {
-        const observer = new IntersectionObserver(
-            (entries) => {
-                entries.forEach((entry, index) => {
-                    if (entry.isIntersecting) {
-                        setIsVisible((prev) => {
-                            const updatedVisibility = [...prev];
-                            updatedVisibility[index] = true;
-                            return updatedVisibility;
-                        });
-                    }
-                });
-            },
-            { threshold: 0.2 }
-        );
-
-        cardRefs.current.forEach((ref) => {
-            if (ref) observer.observe(ref);
-        });
-
-        return () => {
-            cardRefs.current.forEach((ref) => {
-                if (ref) observer.unobserve(ref);
-            });
-        };
-    }, []);
-
     return (
         <div className="container">
             <div className="grid">
                 {cardData.map((card, index) => (
-                    <div
-                        ref={(el) => (cardRefs.current[index] = el)}
-                        className={`card1-container ${isVisible[index] ? "visible" : ""}`}
-                        key={index}
-                        style={{ transitionDelay: `${index * 200}ms` }}
-                    >
+                    <div className="card1-container" key={index} style={{ transitionDelay: `${index * 200}ms` }}>
                         <div className="card1" style={{ backgroundColor: card.bgColor }}>
                             <span className="hover-effect" />
                             <div className="card1-content">

@@ -21,6 +21,10 @@ function Header() {
         setIsMenuOpen(!isMenuOpen);
     }
 
+    function closeNav() {
+        setIsMenuOpen(!isMenuOpen)
+    }
+
     return (
         <div className={`header ${isFixed ? 'fixed-header' : ''} d-flex justify-content-between align-items-center px-5`}>
             <div>
@@ -28,13 +32,13 @@ function Header() {
             </div>
             <div className={`menu ${isMenuOpen ? 'open' : ''}`}>
                 <div className='items d-flex justify-content-between fw-bold gap-4' style={{ fontFamily: "arial", fontSize: "15px" }}>
-                    <div><Link to='/'>Home</Link></div>
-                    <div><Link to='/development'>Development</Link></div>
-                    <div><Link to='/marketing'>Marketing</Link></div>
-                    <div><Link to='/services'>Services</Link></div>
-                    <div><Link to='/career'>Careers</Link></div>
-                    <div><Link to='/about'>About Us</Link></div>
-                    <div><Link to='/contact'>Contact Us</Link></div>
+                    <div><Link to='/' onClick={closeNav}>Home</Link></div>
+                    <div><Link to='/development' onClick={closeNav}>Development</Link></div>
+                    <div><Link to='/marketing' onClick={closeNav}>Marketing</Link></div>
+                    <div><Link to='/services' onClick={closeNav}>Services</Link></div>
+                    <div><Link to='/career' onClick={closeNav}>Careers</Link></div>
+                    <div><Link to='/about' onClick={closeNav}>About Us</Link></div>
+                    <div><Link to='/contact' onClick={closeNav}>Contact Us</Link></div>
                 </div>
             </div>
             <div className='icons' onClick={toggleMenu}>

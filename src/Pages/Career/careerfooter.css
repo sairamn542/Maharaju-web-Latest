@@ -1,0 +1,121 @@
+/* CareeerFooter.css */
+
+/* Overall container styling */
+.career-footer {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  /* Who We Are Section */
+  .career-footer__whoWeAre {
+    background-color: #f7f7f7;
+    padding: 40px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .career-footer__whoWeAreTitle {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .career-footer__whoWeAreText {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Life At MHC Section */
+  .career-footer__lifeAtMHC {
+    padding: 40px;
+  }
+  
+  .career-footer__lifeAtMHCHeading {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Flex container for boxes */
+  .career-footer__boxes {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  /* Individual Box Styling */
+  .career-footer__box {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    max-width: 300px;
+    flex: 1 1 300px;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .career-footer__box:hover {
+    transform: translateY(-5px);
+  }
+  
+  .career-footer__boxImage {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  .career-footer__boxTitle {
+    font-size: 18px;
+    color: #333;
+    margin: 15px 0;
+  }
+  
+  .career-footer__boxText {
+    font-size: 14px;
+    color: #666;
+    padding: 0 15px 20px;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .career-footer__whoWeAre {
+      padding: 20px;
+    }
+  
+    .career-footer__lifeAtMHC {
+      padding: 20px;
+    }
+  
+    .career-footer__whoWeAreTitle,
+    .career-footer__lifeAtMHCHeading {
+      font-size: 28px;
+    }
+  
+    .career-footer__boxTitle {
+      font-size: 16px;
+    }
+  
+    .career-footer__boxText {
+      font-size: 13px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .career-footer__whoWeAreTitle,
+    .career-footer__lifeAtMHCHeading {
+      font-size: 24px;
+    }
+  
+    .career-footer__box {
+      max-width: 100%;
+      flex: 1 1 100%;
+      margin-bottom: 20px;
+    }
+  }
+  

@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React from "react";
 import "./card.css";
 
 const FourCards = () => {
@@ -29,47 +29,12 @@ const FourCards = () => {
         }
     ];
 
-    const [isVisible, setIsVisible] = useState(Array(cardData.length).fill(false));
-    const cardRefs = useRef([]);
-
-    useEffect(() => {
-        const observer = new IntersectionObserver(
-            (entries) => {
-                entries.forEach((entry, index) => {
-                    if (entry.isIntersecting) {
-                        setIsVisible((prev) => {
-                            const updatedVisibility = [...prev];
-                            updatedVisibility[index] = true;
-                            return updatedVisibility;
-                        });
-                    }
-                });
-            },
-            { threshold: 0.1 }
-        );
-
-        cardRefs.current.forEach((ref) => {
-            if (ref) observer.observe(ref);
-        });
-
-        return () => {
-            cardRefs.current.forEach((ref) => {
-                if (ref) observer.unobserve(ref);
-            });
-        };
-    }, []);
-
     return (
         <div className="four-cards-container">
             <h1 className="four-cards-title">What We Do</h1>
             <div className="four-cards-grid">
                 {cardData.map((card, index) => (
-                    <div
-                        ref={(el) => (cardRefs.current[index] = el)}
-                        className={`four-card ${isVisible[index] ? "visible" : ""} ${card.bgColor}`}
-                        key={index}
-                        style={{ transitionDelay: `${index * 200}ms` }}
-                    >
+                    <div className={`four-card ${card.bgColor}`} key={index}>
                         <h2 className="four-card-title">{card.title}</h2>
                         <p className="four-card-content">{card.content}</p>
                         {card.image && (
