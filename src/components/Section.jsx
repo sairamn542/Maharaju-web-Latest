@@ -42,9 +42,8 @@ function Section() {
             </div>
             <div>
                 <h3>ABOUT MAHARAJU</h3>
-                <div>
-                    iLander Technologies was founded by a group of experienced digital marketers 8 years ago to emerge as one of the best digital marketing agencies. Apart from digital marketing services, a wide spectrum of website design and development services will also be provided for our clients.
-                </div>
+                <div className='maharaju-description'>
+                    <b>Maharaju Healthcare Technologies</b> was founded in August 2024 to emerge as one of the leading healthcare technology companies. Apart from delivering advanced healthcare solutions, we also provide a wide range of website design and development services tailored to the needs of our clients.                </div>
                 <div className='content-container'>
                     <div className='icon-container'>
                         <div onClick={() => handleIconClick('home')} className='me-2'><span className='fa-solid fa-home me-2'></span>Our Mission</div>
@@ -56,16 +55,16 @@ function Section() {
                     </div>
                     <div className='count-section'>
                         <div className="count">
-                        <div>{counts.count1}</div>
-                        <div> Projects Completed</div>
+                            <div>{counts.count1}</div>
+                            <div> Projects Completed</div>
                         </div>
                         <div className="count">
-                        <div>{counts.count2}</div>
-                        <div> Happy Clients</div>
+                            <div>{counts.count2}</div>
+                            <div> Happy Clients</div>
                         </div>
                         <div className="count">
-                        <div>{counts.count3}</div>
-                        <div> Awards Won</div>
+                            <div>{counts.count3}</div>
+                            <div> Awards Won</div>
                         </div>
                     </div>
                 </div>

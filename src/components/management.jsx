@@ -9,12 +9,12 @@ function Management() {
         <div className="management-card">
           <div className="management-image">
             <img 
-              src="https://maharajuhealthcare.com/wp-content/uploads/2022/06/Image-03.png" 
-              alt="" 
+              src="ceo.jpg" 
+              alt="ceo" 
             />
           </div>
           <div className="management-details">
-            <h3>Mr. Y.V.V.S.N Raju</h3>
+            <h4>Dr. Y.V.V.S.N Raju</h4>
             <div>Managing Director</div>
             <div className="border-content"></div>
             <div>Maharaju Information Technology</div>
@@ -34,8 +34,8 @@ function Management() {
             />
           </div>
           <div className="management-details">
-            <h3>Raja Raghav Raju Yeluri
-            </h3>
+            <h4>Raja Raghav Raju Yeluri
+            </h4>
             <div>Managing Director</div>
             <div className="border-content"></div>
             <div>Maharaju Information Technology</div>

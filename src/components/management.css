@@ -24,6 +24,7 @@
     transition: transform 0.3s ease;
     border: 5px solid transparent;
     border-width: 20%;
+    cursor: pointer;
   }
   
   .management-card:hover {
@@ -49,7 +50,7 @@
   
  
   
-  .management-details h3 {
+  .management-details h4 {
     font-size: 20px;
     color: #7E57A7;
   }

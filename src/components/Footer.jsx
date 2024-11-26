@@ -8,9 +8,10 @@ function Footer() {
                 <div>
                     <div className='heading1'>Contact</div>
                     <div className='border1'></div>
-                    <div><span className='fa-solid fa-location-dot me-2 mt-4'></span>51/42, Aditya Enclave,Ameerpet, TG-500016</div>
+                    <div><span className='fa-solid fa-location-dot me-2 mt-4'></span>Aditya Trade Center 6th Floor, Flat No 604-c<br />Ameerpet,Hyderabad-500016,Telangana State</div>
                     <div><span className='fa-solid fa-phone me-2  mt-2'></span>+91 9000299706</div>
-                    <div><span className='fa-solid fa-envelope me-2  mt-2'></span>info@maharajutechnology@gmail.com</div>
+                    <div><span className='fa-solid fa-envelope me-2  mt-2'></span>info@maharajuhealthcare.com</div>
+                    <div><span className='fa-solid fa-globe me-2  mt-2'></span>www.maharajutechnologies.com</div>
                 </div>
                 <div>
                     <div className='heading1'>Social</div>
@@ -21,7 +22,7 @@ function Footer() {
                     <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
                 </div>
             </div>
-            <div className='f-content pt-3'>© 2024 Maharaju Technologies Private Limited, All Right Reserved.</div>
+            <div className='f-content pt-3'>© 2024 Maharaju Technologies Pvt Ltd, All Right Reserved.</div>
         </div>
     )
 }

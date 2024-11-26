@@ -7,7 +7,7 @@ function CareeerFooter() {
       <div className="career-footer__whoWeAre">
         <h2 className="career-footer__whoWeAreTitle">Who We Are</h2>
         <p className="career-footer__whoWeAreText">
-          At Sutherland, we are passionate about bringing together human expertise and advanced technologies to help 
+          At <b>Maharaju Healthcare Technologies</b>, we are passionate about bringing together human expertise and advanced technologies to help 
           enterprises drive digital transformation, optimize critical business operations, reinvent experiences, and pioneer 
           new solutions. For more than three decades, we have partnered with iconic brands worldwide, unlocking new 
           possibilities, transformative outcomes, and enduring relationships through market-leading technology and business 

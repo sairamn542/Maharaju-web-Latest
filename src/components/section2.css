@@ -53,6 +53,7 @@
 .left-content div.active {
     background-color: rgb(3, 41, 99);
     color: white !important;
+    cursor: pointer;
 }
 
 .left-content div:hover .fa-brands,
